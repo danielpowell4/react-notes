@@ -55,7 +55,6 @@ class NoteApp extends Component {
     const updatedNotes = getUpdatedNotes(updated)
     this.setState({notes: updatedNotes})
     saveNote(updated)
-      .then(() => this.showTempMessage('Edit Status Changed'))
   }
 
   handleUpdateContent = (id, evt) => {

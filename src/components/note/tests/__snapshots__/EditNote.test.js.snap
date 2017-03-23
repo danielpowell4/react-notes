@@ -1,0 +1,9 @@
+exports[`test EditNote renders correctly 1`] = `
+<form
+  onSubmit={[Function]}>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="editted content" />
+</form>
+`;

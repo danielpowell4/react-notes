@@ -1,0 +1,29 @@
+exports[`test NoteApp renders correctly 1`] = `
+<div
+  className="App">
+  <div
+    className="App-header">
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg" />
+    <h2>
+      Welcome to Dan\'s Notes
+    </h2>
+  </div>
+  <div
+    className="Note-App">
+    <form
+      onSubmit={[Function]}>
+      <input
+        onChange={[Function]}
+        type="text"
+        value="" />
+    </form>
+    <div
+      className="Note-Index">
+      <ul />
+    </div>
+  </div>
+</div>
+`;

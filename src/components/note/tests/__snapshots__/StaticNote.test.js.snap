@@ -1,0 +1,16 @@
+exports[`test StaticNote renders correctly 1`] = `
+<li>
+  <span
+    className="delete-item">
+    <a
+      href="#"
+      onClick={[Function]}>
+      X
+    </a>
+  </span>
+  <span
+    onClick={[Function]}>
+    static note
+  </span>
+</li>
+`;

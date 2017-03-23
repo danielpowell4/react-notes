@@ -1,0 +1,26 @@
+exports[`test NoteItem renders a StaticNote correctly 1`] = `
+<li>
+  <span
+    className="delete-item">
+    <a
+      href="#"
+      onClick={[Function]}>
+      X
+    </a>
+  </span>
+  <span
+    onClick={[Function]}>
+    static note toBe
+  </span>
+</li>
+`;
+
+exports[`test NoteItem renders an EditNote correctly 1`] = `
+<form
+  onSubmit={[Function]}>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="edit note toBe" />
+</form>
+`;

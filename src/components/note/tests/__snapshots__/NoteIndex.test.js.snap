@@ -1,0 +1,28 @@
+exports[`test NoteIndex renders both style of notes correctly 1`] = `
+<div
+  className="Note-Index">
+  <ul>
+    <li>
+      <span
+        className="delete-item">
+        <a
+          href="#"
+          onClick={[Function]}>
+          X
+        </a>
+      </span>
+      <span
+        onClick={[Function]}>
+        static note toBe
+      </span>
+    </li>
+    <form
+      onSubmit={[Function]}>
+      <input
+        onChange={[Function]}
+        type="text"
+        value="editting note toBe" />
+    </form>
+  </ul>
+</div>
+`;

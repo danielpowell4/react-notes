@@ -17,10 +17,10 @@ export const NoteItem = (props) => {
 
   NoteItem.propTypes = {
     content: React.PropTypes.string.isRequired,
-    handleEditSubmit: React.PropTypes.func.isRequired,
-    handleRemove: React.PropTypes.func.isRequired,
-    handleToggleEdit: React.PropTypes.func.isRequired,
-    handleUpdateContent: React.PropTypes.func.isRequired,
+    handleEditSubmit: React.PropTypes.func,
+    handleRemove: React.PropTypes.func,
+    handleToggleEdit: React.PropTypes.func,
+    handleUpdateContent: React.PropTypes.func,
     id: React.PropTypes.number.isRequired,
     isEditting: React.PropTypes.bool.isRequired
   }

@@ -1,0 +1,9 @@
+exports[`test NoteForm renders correctly 1`] = `
+<form
+  onSubmit={[Function]}>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="new note" />
+</form>
+`;
